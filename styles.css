@@ -1,0 +1,19 @@
+#texto-enunciado{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    #contenedor-general {
+        width: 100vw;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 601px) {
+    #contenedor-general {
+        width: 65%;
+        margin: auto;
+        justify-content: center;
+    }
+}
