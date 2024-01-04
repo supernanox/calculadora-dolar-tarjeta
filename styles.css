@@ -1,12 +1,21 @@
+#contenedor-general{
+    width: 60vw;
+}
+
 #texto-enunciado{
     font-size: 1.5rem;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     #contenedor-general {
         width: 100vw;
         margin: 0%;
         padding: 0%;
+    }
+
+    #texto-enunciado{
+        padding: 10px;
+        padding-top: 25px;
     }
 }
 
