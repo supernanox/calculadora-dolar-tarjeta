@@ -1,5 +1,18 @@
 #contenedor-general{
+    background-color: #B9D9EB;
+}
+
+#contenedor-general{
     width: 60vw;
+    height: 100vh;
+}
+
+#contenedor-nav{
+    background-color: #72A0C1;
+}
+
+#text-cantidad{
+    background-color: #E5E4E2;
 }
 
 /*#texto-enunciado{
