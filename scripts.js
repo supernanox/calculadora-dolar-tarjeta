@@ -1,25 +1,20 @@
-let cantidad = 5;
-let username = "Mariano";
+let cantidad = document.getElementById("text-cantidad");
+let boton = document.getElementById("boton-calcular");
+let resultado = document.getElementById("resultado");
 
-
-
-function consultarDolar(cant){
-
-    paraMult = cant;
+function consultarDolar(){
     
     fetch("https://dolarapi.com/v1/dolares/tarjeta")
   .then(response => response.json())
   .then(data => {
-    console.log("El total a pagar es: " + (data.venta * paraMult))
+    console.log("El total a pagar es: " + (data.venta * cantidad.value));
+    resultado.innerText = (data.venta * cantidad.value).toFixed(2);
   }
   );
-    
-
 }
 
-function hola(nombre){
-    console.log("Hola, " + nombre);
+function mostrarCantidad(){
+  console.log(cantidad.value);
 }
 
-console.log(consultarDolar(cantidad));
-hola(username);
+boton.addEventListener("click", consultarDolar)

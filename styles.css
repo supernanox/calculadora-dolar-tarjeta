@@ -6,6 +6,10 @@
     font-size: 1.5rem;
 }
 
+#resultado{
+    color: #f21b3f;
+}
+
 /*@media (max-width: 600px) {
     #contenedor-general {
         width: 100vw;
