@@ -15,6 +15,24 @@
     background-color: #E5E4E2;
 }
 
+#resultado{
+    display: flex;
+    background-color: #E5E4E2;
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#contenedor-footer{
+    height: 10%;
+}
+
 /*#texto-enunciado{
     font-size: 1.1rem;
 }/*
